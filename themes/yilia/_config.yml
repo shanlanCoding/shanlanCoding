@@ -1,10 +1,9 @@
-# Header
+# Header 左侧栏
 
 menu:
   主页: /
-  随笔: /tags/随笔/
 
-# SubNav
+# SubNav 子导航
 subnav:
   github: "#"
   weibo: "#"
@@ -17,7 +16,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "mailto:misterchou@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
