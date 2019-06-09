@@ -1,5 +1,7 @@
 ---
-title: [Vue购物车演示]
+title:
+  - Vue购物车演示
+abbrlink: 6fba3644
 date: 2019-06-07 08:39:47
 tags:
 ---

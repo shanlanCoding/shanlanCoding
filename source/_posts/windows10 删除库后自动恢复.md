@@ -1,11 +1,12 @@
 ---
 title: windows 10 删除库后自动恢复的解决方法
-date: 2019-06-09 15:42:58
-tags: windows10, 库, 删除, 恢复
+tags: 'windows10, 库, 删除, 恢复'
 copyright: true
+abbrlink: f9458eff
+date: 2019-06-09 15:42:58
 ---
 
-[TOC]
+
 
 # 什么是windows 库？
 

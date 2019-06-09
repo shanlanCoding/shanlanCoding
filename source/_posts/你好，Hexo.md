@@ -1,5 +1,6 @@
 ---
 title: 你好，Hexo
+abbrlink: 8ec25db2
 date: 2019-06-07 03:39:47
 tags:
 ---

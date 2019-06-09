@@ -3,20 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 山岚的草稿纸
+title: 山岚的草稿本
 subtitle: 很高兴能帮到你
 description: 一名Java后端开发者
 author: 山岚
 language: zh-CN
-timezone: 
+timezone: Asia/Shanghai
 keywords: Java,WEB,Spring,Spring Boot
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.gobyte.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: post/:abbrlink.html
 permalink_defaults:
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
+
 
 # Directory
 source_dir: source
@@ -26,7 +30,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -56,6 +60,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  综合: common
 tag_map:
 
 # Date / Time format
@@ -104,5 +109,3 @@ jsonContent:
 
 # 插件 优化页面加载速度 filter-optimize
 
-# 过滤该文件，不渲染
-skip_render: README.md
