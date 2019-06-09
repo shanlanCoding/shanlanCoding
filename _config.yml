@@ -103,3 +103,6 @@ jsonContent:
       tags: true
 
 # 插件 优化页面加载速度 filter-optimize
+
+# 过滤该文件，不渲染
+skip_render: README.md
