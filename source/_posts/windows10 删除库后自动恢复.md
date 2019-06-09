@@ -1,5 +1,6 @@
 ---
 title: windows 10 删除库后自动恢复的解决方法
+categories: windows
 tags: 
 - windows 10
 copyright: true
