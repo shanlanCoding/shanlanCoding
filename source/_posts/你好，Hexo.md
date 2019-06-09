@@ -4,5 +4,15 @@ date: 2019-06-07 03:39:47
 tags:
 ---
 
-你好Hexo，这是测试文件
+
+
+
+
+### GIT push三部曲：
+
+```Git
+git add .
+git commit –m "注释"  # 或者：git push origin hexo
+git push 
+```
 

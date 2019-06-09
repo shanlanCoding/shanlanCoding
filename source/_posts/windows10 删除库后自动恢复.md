@@ -2,7 +2,7 @@
 title: windows 10 删除库后自动恢复的解决方法
 date: 2019-06-09 15:42:58
 tags: windows10, 库, 删除, 恢复
-
+copyright: true
 ---
 
 [TOC]
@@ -28,4 +28,6 @@ tags: windows10, 库, 删除, 恢复
 请看操作图，确切的说，它只是被隐藏了，不会在左侧库里显示，但是“库”还在，操作方法如下：
 
 ![隐藏](//ws4.sinaimg.cn/large/96e311f0gy1g3uyql0zj0g20s60lmn71.gif)
+
+
 
