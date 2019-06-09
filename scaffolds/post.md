@@ -1,9 +1,9 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+tags: 
 copyright: true
 comments: true
-categories:
+categories: 
 ---
 
