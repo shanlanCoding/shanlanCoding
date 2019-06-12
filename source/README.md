@@ -1,4 +1,4 @@
-# 本项目为HEXO博客的后台程序
+# 本项目为HEXO博客的前台代码
 
 ### 本程序的博客地址为：[https://blog.gobyte.cn](https://blog.gobyte.cn/)，部署在GitHub pages上。
 
