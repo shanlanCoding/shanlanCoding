@@ -78,7 +78,7 @@ pagination_dir: page
 # Extensions 主题
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: pure
 
 # Deployment
 ## Docs: git@github.com:shanlanCoding/shanlancoding.github.io.git
@@ -88,24 +88,60 @@ deploy:
   branch: master
 
 # 显示所有文章
+#jsonContent:
+    #meta: false
+    #pages: false
+    #posts:
+      #title: true
+      #date: true
+      #path: true
+      #text: false
+      #raw: false
+      #content: false
+      #slug: false
+      #updated: false
+      #comments: false
+      #link: false
+      #permalink: false
+      #excerpt: false
+      #categories: false
+      #tags: true
+# 生成json内容，可以用来搜索
 jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-
-# 插件 优化页面加载速度 filter-optimize
-
+  meta: true
+  dafts: false
+  file: content.json
+  keywords: undefined
+  dateFormat: undefined
+  pages:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    author: true
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    author: true
+    categories: true
+    tags: true
