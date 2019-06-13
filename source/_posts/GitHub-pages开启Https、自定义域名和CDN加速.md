@@ -3,7 +3,7 @@ title: GitHub pages开启Https、自定义域名和CDN加速
 copyright: true
 comments: true
 tags:
-  - GitHub pages
+  - HEXO
 categories:
   - 博客优化
 abbrlink: bc0a861a
