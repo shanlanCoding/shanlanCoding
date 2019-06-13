@@ -1,14 +1,15 @@
+---
 title: netlify服务器自定义域名添加自定义证书开启HTTPS的正确方法
 copyright: true
 comments: true
 toc: true
-date: 2019-06-13 11:34:17
 tags:
-
   - HEXO
 categories:
   - 博客优化
-
+abbrlink: b5463510
+date: 2019-06-13 11:34:17
+---
 # 什么是netlify？
 
 netlify和GitHub pages 的作用一样，托管静态代码的服务器，可以参考我这一篇文章：[GitHub pages开启Https、自定义域名和CDN加速]( https://blog.gobyte.cn/post/bc0a861a.html)。说直白点，就是存放HTML等静态文件的服务器。
@@ -175,4 +176,3 @@ netlify和GitHub pages 的作用一样，托管静态代码的服务器，可以
 
 
 **至此，教程已经结束，感谢阅读。**
-

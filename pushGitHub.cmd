@@ -4,6 +4,6 @@ title auto commit
 D:\Git\bin\git.exe add -A
 D:\Git\bin\git.exe commit -m %commit%
 D:\Git\bin\git.exe push origin
-echo å‘½ä»¤æ‰§è¡Œå®Œæ¯•ï¼Œè¯·æŒ‰ä»»æ„é”®å…³é—­
+echo ÃüÁîÖ´ÐÐÍê±Ï£¬Çë°´ÈÎÒâ¼ü¹Ø±Õ
 pause >null
 :exit
