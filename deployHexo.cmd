@@ -3,4 +3,5 @@ D:
 cd D:\GitHub_Pages\Hexo-git\shanlancoding.github.io
 hexo g && hexo d
 
-call .\pushGitHub.cmd
+call D:\GitHub_Pages\Hexo-git\shanlancoding.github.io\pushGitHub.cmd
+pause >null
