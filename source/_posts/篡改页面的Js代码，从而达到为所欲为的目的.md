@@ -1,5 +1,5 @@
 ---
-title: 篡改页面的Js代码，从而达到为所欲为的目的
+title: 篡改页面的Js代码，从而达到"为所欲为"的目的
 copyright: true
 comments: true
 toc: true
