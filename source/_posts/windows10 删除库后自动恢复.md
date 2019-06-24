@@ -16,7 +16,7 @@ date: 2019-06-09 15:42:58
 
 
 
-![库文件](https://wx2.sinaimg.cn/large/96e311f0gy1g3uycyczdij20490fkglu.jpg)
+{% s https://wx2.sinaimg.cn/large/96e311f0gy1g3uycyczdij20490fkglu.jpg 库文件%}
 
 # 手动删除不行吗？
 
