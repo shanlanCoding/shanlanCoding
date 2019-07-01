@@ -44,10 +44,18 @@ categories:
       	}
       ```
 
-      我的nginx配置文件目录是`/etc/nginx/nginx.conf`，如果你不知道，可以使用`find / -name nginx.conf`命令进行全局搜索
+      我的nginx配置文件目录是`/etc/nginx/nginx.conf`，如果你不知道，可以使用`find / -name nginx.conf`命令进行全局搜索。
 
-      最后记得重新加载nginx配置，命令：`nginx -s reload`
-      
+      单独匹配项目还不够，还需要**匹配项目的静态文件**，否则你的css和js等静态文件加载会出现404的情况，我的匹配规则如下：
+
+      ```shell
+      location ~ \.(css|html|htm|js|gif|jpg|jpeg|png|bmp|swf)$  { 
+      	proxy_pass http://127.0.0.1:9090; 
+      } 
+      ```
+
+      **最后记得重新加载nginx配置，命令：**`nginx -s reload`
+
 
 
 
