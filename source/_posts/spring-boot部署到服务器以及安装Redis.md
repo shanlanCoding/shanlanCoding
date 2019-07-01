@@ -6,7 +6,9 @@ toc: true
 abbrlink: c621cb41
 date: 2019-07-02 00:39:26
 tags:
+ - nginx
 categories:
+ - 服务器部署
 ---
 
 1. 使用idea的Maven工具，`package`命令，即可对项目进行打包。也可以手动输入maven命令打包`mvn clear package`
