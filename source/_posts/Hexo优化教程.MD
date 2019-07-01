@@ -5,7 +5,7 @@ date: 2019-06-09 21:17:09
 categories:
 - 博客优化
 tags: 
-- Hexo优化教程
+- Hexo
 ---
 
 [hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
