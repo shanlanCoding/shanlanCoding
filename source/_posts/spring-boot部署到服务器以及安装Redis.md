@@ -1,5 +1,5 @@
 ---
-title: spring boot部署到服务器、安装Redis、配置Nginx、MySQL
+title: spring-boot部署到CentOS服务器、安装Redis、配置Nginx、MySQL
 copyright: true
 comments: true
 toc: true
@@ -197,8 +197,8 @@ categories:
     [root@github ~]# service mysqld restart; #重启MySQL
     Redirecting to /bin/systemctl restart  mysqld.service
     Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
+    ```
 </details>
-
 ​		参考：[CentOS7和CentOS6怎样开启MySQL远程访问](https://blog.csdn.net/u014066037/article/details/55194802)
 
 # 总结：
@@ -206,7 +206,7 @@ categories:
 1. 打包SpringBoot 项目使用：`mvn clean package`
 
 2. 在Linux 启动项目使用命令：` nohup java -jar xxx.jar &    `   ；停止运行使用:`ps -ef|grep xxxx.jar`查询出pid，然后使用：`kill -9 pid`命令杀死进程，你还可以使用脚本来管理程序：
-
+   
    <details>
        <summary>点击展开完整的脚本</summary>
           ```shell
