@@ -84,7 +84,9 @@ theme: pure
 ## Docs: git@github.com:shanlanCoding/shanlancoding.github.io.git
 deploy:
   type: git
-  repo: git@github.com:shanlanCoding/shanlancoding.github.io.git
+  repository:
+		github: git@github.com:shanlanCoding/shanlancoding.github.io.git
+		coding: git@git.dev.tencent.com:shanl/shanl.git
   branch: master
 
 # 显示所有文章
