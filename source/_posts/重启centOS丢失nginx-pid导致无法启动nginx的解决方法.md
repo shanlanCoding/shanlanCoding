@@ -100,8 +100,3 @@ nginx -c 它是设置配置文件。其实nginx -c 它还有一个默认的配�
 
 ```
 
-``` html /blog/index.html Tyrion Yu tyrionyu-blog
-<!DOCTYPE html><html lang="en">
-<head>	
-<meta charset="UTF-8">	<title>Document</title></head><body></body></html>
-```
