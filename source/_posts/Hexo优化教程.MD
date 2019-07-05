@@ -18,3 +18,5 @@ tags:
 
 [Hexo使用攻略-添加分类及标签](https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/)
 
+[解决新浪/微博图床图片403错误防盗链问题](https://blog.gobyte.cn/post/cfce32d8.html)
+

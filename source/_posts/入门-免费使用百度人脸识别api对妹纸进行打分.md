@@ -1,12 +1,12 @@
 ---
-title: 入门-免费使用百度人脸识别对妹纸进行打分
+title: 入门-利用Java免费使用百度人脸识别对妹纸进行打分
 copyright: true
 comments: true
 toc: true
 tags:
   - 人脸识别
 categories:
-  - 骚操作
+  - Java
 abbrlink: 7294a25e
 date: 2019-06-29 18:41:07
 ---
