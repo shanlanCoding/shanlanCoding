@@ -161,3 +161,27 @@ sitemap:
 
 baidusitemap:
 path: baidusitemap.xml
+
+# markdown自定义插件
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render: #渲染器
+    html: true # 不转义 HTML 内容
+    xhtmlOut: false # 不必必使用完全的 XHTML 代码，换行可以为 <br>
+    breaks: true # 每次会车换行相当于一个 <br/> 标签
+    linkify: true # 类似链接的文本，作为链接输出
+    typographer: true # 替换常见的排版元素;这使得能够替换常见的排版元素，如©，弯引号，破折号等。
+    quotes: '“”‘’' # 'single'、"double" 变成 ‘single’、“double”;定义双引号和单引号，如果将typographer设置为true，则用于替换哑引号。
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors: #锚点
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: '#'

@@ -31,5 +31,5 @@ date: 2019-07-04 14:51:03
 
 ----
 
-[集合一](https://blog.gobyte.cn/post/cfce32d8.html)
+[集合一](https://blog.gobyte.cn/post/57eede11.html)
 
