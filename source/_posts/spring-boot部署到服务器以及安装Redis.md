@@ -37,25 +37,25 @@ categories:
    o+x 只是给其他人加上可执行权限
    ```
 
-   ## 配置nginx
+# 配置nginx
 
-   ### 第一种方法（不推荐）
+### 第一种方法（不推荐）
 
-   由于已经有了一个tomcat项目，所以第二个项目必须要在nginx里添加配置，否则访问就需要加端口访问了，我的配置如下：
+由于已经有了一个tomcat项目，所以第二个项目必须要在nginx里添加配置，否则访问就需要加端口访问了，我的配置如下：
 
-   ```shell
-   # 第二个项目
-   		location ^~ /apply {
-   			#转发给tomcat处理
-   			proxy_pass http://127.0.0.1:9090/;
-   			proxy_set_header  Host       $host;
-   			proxy_set_header  X-Real-IP    $remote_addr;
-   			proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-   		}		
-   	}
-   ```
+```shell
+# 第二个项目
+		location ^~ /apply {
+			#转发给tomcat处理
+			proxy_pass http://127.0.0.1:9090/;
+			proxy_set_header  Host       $host;
+			proxy_set_header  X-Real-IP    $remote_addr;
+			proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+		}		
+	}
+```
 
-   我的nginx配置文件目录是`/etc/nginx/nginx.conf`，如果你不知道，可以使用`find / -name nginx.conf`命令进行全局搜索。
+我的nginx配置文件目录是`/etc/nginx/nginx.conf`，如果你不知道，可以使用`find / -name nginx.conf`命令进行全局搜索。
 
 5. 解决nginx的SpringBoot 静态文件404问题：
 
@@ -69,45 +69,45 @@ categories:
 
       **最后记得重新加载nginx配置，命令：**`nginx -s reload`
 
-     ### 第二种方法
+### 第二种方法
 
-     2019-7-2 19:42:50更新：
+2019-7-2 19:42:50更新：
 
-     第一种方法有弊端。因为项目的请求链接基本是固定的。
+第一种方法有弊端。因为项目的请求链接基本是固定的。
 
-     例如项目的登陆地址是：www.gobyte.cn/login
+例如项目的登陆地址是：www.gobyte.cn/login
 
-     如果使用了第一种，那么必须加一个目录：www.gobyte.cn/xxx/login。
+如果使用了第一种，那么必须加一个目录：www.gobyte.cn/xxx/login。
 
-     而多了一层目录以后，预先项目的请求地址实际上还是www.xxxx.cn/login。仅仅只是匹配了xxx只能解决页面的加载，实际post的时候会导致404，如果不想404，就只能把所有的请求都转发。那样其他的项目就会发生冲突。或者修改项目的post请求，给请求也加上/xxx/目录，但是这样弊端很大，因为需要改动源代码，所以可以通过第二种方法，使用二级域名来对应新的项目。
+而多了一层目录以后，预先项目的请求地址实际上还是www.xxxx.cn/login。仅仅只是匹配了xxx只能解决页面的加载，实际post的时候会导致404，如果不想404，就只能把所有的请求都转发。那样其他的项目就会发生冲突。或者修改项目的post请求，给请求也加上/xxx/目录，但是这样弊端很大，因为需要改动源代码，所以可以通过第二种方法，使用二级域名来对应新的项目。
 
-     1. 添加dns解析，例如我第二个项目打算使用二级域名为：b.gobyte.cn，那么把dns的解析为b，至于记录值还是你的服务器ip
+1. 添加dns解析，例如我第二个项目打算使用二级域名为：b.gobyte.cn，那么把dns的解析为b，至于记录值还是你的服务器ip
 
-     2. 修改nginx.conf配置：
+2. 修改nginx.conf配置：
 
-        ```shell
-        # 第二个项目
-           server {
-                listen	80; #你要监控的端口。https是监控443
-                server_name b.gobyte.cn; #填写你要项目域名
-                index index.html index.htm index.php default.html default.htm default.php;
-        
-                location / {
-                    proxy_pass http://127.0.0.1:9090;
-        			proxy_set_header  Host       $host;
-        			proxy_set_header  X-Real-IP    $remote_addr;
-        			proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-                }
-                error_page   500 502 503 504  /50x.html;
-                location = /50x.html {
-                    root   html;
-                }
-            }
-        ```
+   ```shell
+   # 第二个项目
+      server {
+           listen	80; #你要监控的端口。https是监控443
+           server_name b.gobyte.cn; #填写你要项目域名
+           index index.html index.htm index.php default.html default.htm default.php;
+   
+           location / {
+               proxy_pass http://127.0.0.1:9090;
+   			proxy_set_header  Host       $host;
+   			proxy_set_header  X-Real-IP    $remote_addr;
+   			proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+           }
+           error_page   500 502 503 504  /50x.html;
+           location = /50x.html {
+               root   html;
+           }
+       }
+   ```
 
-        3. `nginx -s reload` 进行重新加载nginx配置
-        
-           参考：[[nginx在一个服务器上配置两个项目，并通过两个不同的域名访问](https://www.cnblogs.com/banma/p/9069858.html)
+   3. `nginx -s reload` 进行重新加载nginx配置
+   
+      参考：[nginx在一个服务器上配置两个项目，并通过两个不同的域名访问](https://www.cnblogs.com/banma/p/9069858.html)
 
 # 找回MySQL密码
 
