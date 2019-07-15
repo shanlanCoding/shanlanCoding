@@ -29,6 +29,10 @@ date: 2019-07-04 14:51:03
 
 [全栈教程合集](https://github.com/frank-lam/fullstack-tutorial)
 
+[Java2018面试应届生常问题目-含金量高](https://www.toutiao.com/i6617749614734868999/)
+
+[Java校招面试题目合集_牛客网](https://www.nowcoder.com/ta/review-java)
+
 ----
 
 [集合一](https://blog.gobyte.cn/post/57eede11.html)

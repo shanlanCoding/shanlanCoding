@@ -97,7 +97,7 @@ Hash表存储元素的过程：首先根据被存储的元素来计算出HashCod
 
 #### TreeSet
 
-**线程不同步，底层原理使用二叉树结构[^1]，存储自然顺序[^2]**，元素唯一，内部使用TreeMap的SortedSet。
+**线程不同步，底层原理使用二叉树结构[^1]，存储自然顺序[^2]，**元素唯一，内部使用TreeMap的SortedSet。
 
 TreeSet保证元素唯一性的两种方法：
 
@@ -195,8 +195,11 @@ public boolean equals(Object obj)
 
 从上图可以看出，带Bucket的HashTable大致相当于hash表和链表的结合体。即在每一个Bucket上挂一个链表，链表的每个节点都用来存放对象。Java通过hashCode()方法来确定某个对象应该位于哪个Bucket桶中，然后在对应的链表中查找。理想情况下，如果的HashCode()写的足够健壮，那么每个Bucket将会只有一个节点，这样就解决了查找操作的常量级别的时间复杂度，即无论你的对象放在哪片内存中，我们都可以通过HashCode()立刻定位到该区域，而不需要从头到尾遍历查找，这也是hash表的最主要的作用。
 
-如：
-	当我们调用HashSet的put(Object o)方法时，首先会根据o.hashCode()的返回值定位到相应的Bucket中，如果该Bucket中没有结点，则将 o 放到这里，如果已经有结点了, 则把 o 挂到链表末端。同理，当调用contains(Object o)时，Java会通过hashCode()的返回值定位到相应的Bucket中，然后再在对应的链表中的结点依次调用equals()方法来判断结点中的对象是否是你想要的对象。
+如：当我们调用HashSet的put(Object o)方法时，首先会根据o.hashCode()的返回值定位到相应的Bucket中，如果该Bucket中没有结点，则将 o 放到这里，如果已经有结点了, 则把 o 挂到链表末端。同理，当调用contains(Object o)时，Java会通过hashCode()的返回值定位到相应的Bucket中，然后再在对应的链表中的结点依次调用equals()方法来判断结点中的对象是否是你想要的对象。
+
+不重写HashCode会导致**相同内容的一个对象，在取出时为null。**原因就是虽然两个对象内容相同，但是由于没有重写HashCode方法，导致默认调用Object类的HashCode方法，返回了对象的地址，而两个对象虽然内容是相同，但是地址不同，那么新的对象就去一个不存在bucket里寻找，自然是返回null。
+
+参考自：[重写equal()时为什么也得重写hashCode()之深度解
 
 ### 我让hashCode()每次都返回一个固定的数行吗？
 

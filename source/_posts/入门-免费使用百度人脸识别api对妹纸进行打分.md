@@ -28,7 +28,6 @@ date: 2019-06-29 18:41:07
 # 程序运行流程
 
 ```flow
-
 st=>start: 开始
 e=>end: 结束
 op1=>operation: 遍历文件夹内图片
@@ -45,9 +44,7 @@ cond(no)->op1
 
 ```
 
-
-
-   ### 读取硬盘图片以及转换成base64编码的代码：
+### 读取硬盘图片以及转换成base64编码的代码：
 
    ```java
        public String getImgBase64(String filePath) {
