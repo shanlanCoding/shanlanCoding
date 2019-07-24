@@ -197,9 +197,9 @@ categories:
     [root@github ~]# service mysqld restart; #重启MySQL
     Redirecting to /bin/systemctl restart  mysqld.service
     Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
-    ```
+```
 </details>
-​		参考：[CentOS7和CentOS6怎样开启MySQL远程访问](https://blog.csdn.net/u014066037/article/details/55194802)
+参考：[CentOS7和CentOS6怎样开启MySQL远程访问](https://blog.csdn.net/u014066037/article/details/55194802)
 
 # 总结：
 

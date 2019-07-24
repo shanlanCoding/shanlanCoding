@@ -6,7 +6,7 @@ toc: true
 tags:
   - Java面试题
 categories:
-  - 面试题
+  - Java
 abbrlink: 6669b4ec
 date: 2019-07-13 20:21:02
 ---

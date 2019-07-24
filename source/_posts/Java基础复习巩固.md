@@ -11,6 +11,14 @@ abbrlink: 47dfb631
 date: 2019-07-04 14:51:03
 ---
 
+# 比较实用的面试总结
+
+[应届生Java面试经验总结 - ShyTan的博客 ](https://blog.csdn.net/ShyTan/article/details/81412298)
+
+[两年Java开发工作经验面试总结 - 知乎](https://zhuanlan.zhihu.com/p/33988489)
+
+[(14 条消息) 作为2020届的应届生，校招怎么准备的呢？ - 知乎](https://www.zhihu.com/question/318692916/answer/650009387)
+
 # 待整理的资料
 
 [记一次面试 Java 实习生的经历](https://v2ex.com/t/270462)
@@ -32,6 +40,8 @@ date: 2019-07-04 14:51:03
 [Java2018面试应届生常问题目-含金量高](https://www.toutiao.com/i6617749614734868999/)
 
 [Java校招面试题目合集_牛客网](https://www.nowcoder.com/ta/review-java)
+
+
 
 ----
 
