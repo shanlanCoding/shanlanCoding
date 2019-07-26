@@ -17,9 +17,13 @@ date: 2019-07-04 14:51:03
 
 [两年Java开发工作经验面试总结 - 知乎](https://zhuanlan.zhihu.com/p/33988489)
 
-[(14 条消息) 作为2020届的应届生，校招怎么准备的呢？ - 知乎](https://www.zhihu.com/question/318692916/answer/650009387)
+[作为2020届的应届生，校招怎么准备的呢？ - 知乎](https://www.zhihu.com/question/318692916/answer/650009387)
 
-# 待整理的资料
+ [双非硕士的春招秋招经验总结——对校招，复习以及面试心态的理解](https://blog.csdn.net/qqxx6661/article/details/82917716)
+
+[Java程序员面试复习手册](https://zhuanlan.zhihu.com/c_195927288)
+
+# 待整理的资料)
 
 [记一次面试 Java 实习生的经历](https://v2ex.com/t/270462)
 
