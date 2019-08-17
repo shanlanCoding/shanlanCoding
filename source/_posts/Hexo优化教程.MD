@@ -1,10 +1,10 @@
 ---
-title: Hexo优化教程
-abbrlink: ad2324d4
-date: 2019-06-09 21:17:09
+title：Hexo优化教程
+abbrlink：ad2324d4
+date：2019-06-09 21:17:09
 categories:
 - 博客优化
-tags: 
+tags：
 - Hexo
 ---
 
@@ -22,11 +22,45 @@ tags:
 
 [解决新浪/微博图床图片403错误防盗链问题](https://blog.gobyte.cn/post/cfce32d8.html)
 
-
+[解决git停留在writing objects和上传慢的情况](https://www.jianshu.com/p/704dc6b0bb18)
 
 # HEXO多备份源程序到GitHub和Coding
 
 我使用的是第二种方法。注意，如果远程仓库和本地版本不一致，[我使用强制覆盖远程仓库。](git强制提交本地分支覆盖远程分支 - Master HaKu - 博客园 - https://www.cnblogs.com/davidgu/p/9072493.html)
 
 [一个项目push到多个远程Git仓库 - 个人文章 - SegmentFault 思否]( https://segmentfault.com/a/1190000011294144)
+
+
+
+
+
+# Git本地和仓库冲突，Pull报错怎么办？
+
+冲突解决三部曲：
+
+```shell
+git stash // 备份工作区和恢复上次提交后的状态
+git pull // 拉取仓库的代码
+git stash pop // 恢复 git stash 的备份
+```
+
+## 流程如下
+
+1. 备份当前的工作区，并恢复到上次提交后的状态
+2. 拉取服务器的代码
+3. 恢复第一步备份的数据到工作区
+
+## 相关命令解释
+
+`git stash`：备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。
+
+`git pull`:拉取服务器上的代码；
+
+`git stash pop`：从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
+
+`git stash list`：显示Git栈内的所有备份，可以利用这个列表来决定从那个地方恢复。
+
+`git stash clear`：清空Git栈。此时使用gitg等图形化工具会发现，原来stash的哪些节点都消失了。
+
+
 
