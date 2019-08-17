@@ -10,6 +10,8 @@ tags:
 
 [hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
 
+[使用hexo，如果换了电脑怎么更新博客？ - 知乎]( https://www.zhihu.com/question/21193762)
+
 [hexo链接持久化终极解决之道 ](https://blog.csdn.net/yanzi1225627/article/details/77761488)
 
 [bat批处理脚本自动部署Hexo博客 ](https://blog.csdn.net/qq_21808961/article/details/84868482) 
@@ -19,4 +21,12 @@ tags:
 [Hexo使用攻略-添加分类及标签](https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/)
 
 [解决新浪/微博图床图片403错误防盗链问题](https://blog.gobyte.cn/post/cfce32d8.html)
+
+
+
+# HEXO多备份源程序到GitHub和Coding
+
+我使用的是第二种方法。注意，如果远程仓库和本地版本不一致，[我使用强制覆盖远程仓库。](git强制提交本地分支覆盖远程分支 - Master HaKu - 博客园 - https://www.cnblogs.com/davidgu/p/9072493.html)
+
+[一个项目push到多个远程Git仓库 - 个人文章 - SegmentFault 思否]( https://segmentfault.com/a/1190000011294144)
 
