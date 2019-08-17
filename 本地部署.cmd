@@ -1,4 +1,4 @@
 @echo off
-D:
-cd D:\GitHub_Pages\Hexo-git\shanlancoding.github.io
+E:
+cd E:\HEXO\shanlancoding.github.io
 hexo g && hexo s
