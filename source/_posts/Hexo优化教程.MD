@@ -1,13 +1,13 @@
 ---
-title：Hexo优化教程
-abbrlink：ad2324d4
-date：2019-06-09 21:17:09
+title: Hexo优化教程
+abbrlink: ad2324d4
+date: 2019-06-09 21:17:09
+toc: true
+tags:
+- Hexo
 categories:
 - 博客优化
-tags：
-- Hexo
 ---
-
 ###### [hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
 
 ###### [使用hexo，如果换了电脑怎么更新博客？ - 知乎]( https://www.zhihu.com/question/21193762)
