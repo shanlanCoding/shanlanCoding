@@ -8,6 +8,8 @@ tags:
 categories:
 - 博客优化
 ---
+# 优化教程
+
 ###### [hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
 
 ###### [使用hexo，如果换了电脑怎么更新博客？ - 知乎]( https://www.zhihu.com/question/21193762)
@@ -25,7 +27,7 @@ categories:
 
 
 
-###### Git本地和仓库冲突，Pull报错怎么办？
+# Git本地和仓库冲突，Pull报错怎么办？
 
 冲突解决三部曲：
 

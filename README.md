@@ -6,5 +6,5 @@
 
 ### 另外，部署完毕以后，你还需要做一些优化操作，添加一些你需要的功能
 
-### 体可以参考该教程：[Hexo优化教程](https://blog.gobyte.cn/post/ad2324d4.html)
+### 具体可以参考该教程：[Hexo优化教程](https://blog.gobyte.cn/post/ad2324d4.html)
 
