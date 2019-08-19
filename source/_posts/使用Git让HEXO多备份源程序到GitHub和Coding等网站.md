@@ -19,11 +19,42 @@ date: 2019-08-19 11:51:17
 
 完整解决教程：[一个项目push到多个远程Git仓库]( https://segmentfault.com/a/1190000011294144)
 
-我使用的是第二种方法。注意，如果远程仓库和本地版本不一致，[我使用强制覆盖远程仓库。](git强制提交本地分支覆盖远程分支 - Master HaKu - 博客园 - https://www.cnblogs.com/davidgu/p/9072493.html)
+我使用的是第二种方法。注意，如果远程仓库和本地版本不一致，[我使用强制覆盖远程仓库。](https://www.cnblogs.com/davidgu/p/9072493.html)
+
+###### 操作步骤：
+
+1. 查询目前Git的远程仓库列表
+
+   ```shell
+   $ git remote -v
+   origin  https://github.com/shanlanCoding/shanlancoding.github.io.git (fetch)
+   origin  https://github.com/shanlanCoding/shanlancoding.github.io.git (push)
+   ```
+   
+2. 添加需要备份的远程仓库URL
+
+   `git remote set-url --add 本地仓库名 需要push的新仓库地址` 
+
+   ```shell
+   git remote set-url --add origin git@git.dev.tencent.com:shanl/shanl.git
+   ```
+
+###### 完整命令：
 
 ```shell
-//代码解释
-git remote -v // 查远程仓库列表；仓库名和仓库地址
-git remote set-url --add github https://git.oschina.net/zxbetter/test.git // git remote set-url --add 本地仓库名 远程仓库地址。这行代码的作用是指定一个本地仓库，然后添加一个远程仓库地址
+git remote set-url --add git@git.dev.tencent.com:shanl/shanl.git
 ```
+
+再次查询远程仓库列表：
+
+```shell
+$ git remote -v
+origin  https://github.com/shanlanCoding/shanlancoding.github.io.git (fetch)
+origin  https://github.com/shanlanCoding/shanlancoding.github.io.git (push)
+origin  git@git.dev.tencent.com:shanl/shanl.git (push)
+```
+
+这时候我们发现多了一个链接，而这个就是我们刚添加进入的。另外还有链接后面的括号，里面有push和fetch两种参数。fetch代表我们pull的地址，也就是我们上传代码到哪个仓库的地址，一般fetch地址只生效一个，即使多个也只使用第一个fetch地址。
+
+我最初在添加新的远程仓库地址后，发现了我的fetch地址替换成新的仓库地址了，所以我还需要修改fetch的地址，具体解决方法参考这里：[Git 修改远程仓库URL，添加Fetch/Pull的URL的解决方法 | 山岚 - 90码农历险记]( https://shanlan.netlify.com/post/58974e7c.html)
 

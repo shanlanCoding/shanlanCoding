@@ -23,14 +23,6 @@ tags：
 
 ###### [解决git停留在writing objects和上传慢的情况](https://www.jianshu.com/p/704dc6b0bb18)
 
-###### HEXO多备份源程序到GitHub和Coding
-
-​	我使用的是第二种方法。注意，如果远程仓库和本地版本不一致，[我使用强制覆盖远程仓库。](git强制提交本地分支覆盖远程分支 - Master HaKu - 博客园 - https://www.cnblogs.com/davidgu/p/9072493.html)
-
-​	完整解决教程：[一个项目push到多个远程Git仓库 - 个人文章 - SegmentFault 思否]( https://segmentfault.com/a/1190000011294144)
-
-
-
 
 
 ###### Git本地和仓库冲突，Pull报错怎么办？
