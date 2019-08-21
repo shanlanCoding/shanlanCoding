@@ -3,11 +3,12 @@ title: React入门学习--状态提升
 copyright: true
 comments: true
 toc: true
-date: 2019-08-21 09:22:17
 tags:
-- React教程
+  - React教程
 categories:
-- 前端
+  - 前端
+abbrlink: 6b4a429b
+date: 2019-08-21 09:22:17
 ---
 
 # 什么是状态提升？
