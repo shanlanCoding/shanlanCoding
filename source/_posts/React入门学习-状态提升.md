@@ -163,4 +163,8 @@ function BoilingVerdict(props) {
 
 [https://gist.github.com/shanlanCoding/725bc0b068f359e29f6e1bf31a1019cc](https://gist.github.com/shanlanCoding/725bc0b068f359e29f6e1bf31a1019cc)
 
-   
+在线演示： [https://codepen.io/gaearon/pen/WZpxpz](https://codepen.io/gaearon/pen/WZpxpz)
+
+# 效果图
+
+![效果图](https://zh-hans.reactjs.org/react-devtools-state-ef94afc3447d75cdc245c77efb0d63be.gif)
