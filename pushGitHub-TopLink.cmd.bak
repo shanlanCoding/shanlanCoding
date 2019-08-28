@@ -1,6 +1,6 @@
 @echo off
 set /p commit=commit:
-::title auto commit
+title auto commit
 cd C:\Program Files\Git\bin\
 git.exe add -A
 git.exe commit -m %commit%
