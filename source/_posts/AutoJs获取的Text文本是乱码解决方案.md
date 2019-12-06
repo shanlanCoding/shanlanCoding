@@ -3,11 +3,12 @@ title: ' AutoJs获取的Text文本是乱码|Android爬虫反字体屏蔽乱码�
 copyright: true
 comments: true
 toc: true
-date: 2019-11-23 11:50:19
 tags:
-- AutoJs
+  - AutoJs
 categories:
-- JavaScript
+  - JavaScript
+abbrlink: ae3d322e
+date: 2019-11-23 11:50:19
 ---
 
 # 源由
