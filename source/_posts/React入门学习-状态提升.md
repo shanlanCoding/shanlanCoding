@@ -4,7 +4,7 @@ copyright: true
 comments: true
 toc: true
 tags:
-  - React教程
+  - React
 categories:
   - 前端
 abbrlink: 6b4a429b
