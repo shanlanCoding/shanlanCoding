@@ -31,14 +31,16 @@ pipeline {
     stage('部署') {
       steps {
         echo '部署中...'
-        dir(path: 'public') {
-          sh 'ls'
-          sh 'git init'
-          sh 'git config user.name $USER_NAME'
-          sh 'git config user.email $USER_EMAIL'
-          sh 'git add -A'
-          sh 'git commit -m \'init\''
-          sh 'git push -u -f "$USER_PROJECT" master:master'
+        // dir(path: 'public') {
+          // sh 'ls'
+          // sh 'git init'
+          // sh 'git config user.name $USER_NAME'
+          // sh 'git config user.email $USER_EMAIL'
+          // sh 'git add -A'
+          // sh 'git commit -m \'init\''
+          // sh 'git push -u -f "$USER_PROJECT" master:master'
+	sh 'npm install hexo-deployer-git --save' // 安装 deploy 脚手架
+        sh 'hexo deploy' // 部署
         }
         echo '部署完成'
       }
