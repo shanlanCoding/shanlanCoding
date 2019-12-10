@@ -87,6 +87,7 @@ deploy:
   repository:
 		github: git@github.com:shanlanCoding/shanlancoding.github.io.git
 		coding: git@git.dev.tencent.com:shanl/shanl.git
+		coding-e: git@e.coding.net:shanlan/hexo/public.git
   branch: master
 
 # 显示所有文章
