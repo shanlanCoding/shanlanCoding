@@ -129,13 +129,13 @@ comment:
   valine: # Valine. https://valine.js.org
     appid:  ksrz2lYRLkGCOqMraVC2gBB3-gzGzoHsz
     appkey:  ehlbHl0wgN6gbvN4NQexYxnl
-    notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-    verify: false # Verification code
-    placeholder: 说点什么吧？ # comment box placeholder
-    avatar: robohash # gravatar style
-    meta: nick,mail,link # custom comment header
-    pageSize: 10 # pagination size
-    visitor: true # Article reading statistic https://valine.js.org/visitor.html
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    verify: false # Verification code	验证码？
+    placeholder: 说点什么吧？ # comment box placeholder		评论框默认显示？
+    avatar: robohash # gravatar style  头像样式
+    meta: nick,mail,link # custom comment header 需要哪些字段
+    pageSize: 10 # pagination size 分页
+    visitor: true # Article reading statistic https://valine.js.org/visitor.html	文章访问量统计。
 
 # douban 豆瓣书单
 # Api：
