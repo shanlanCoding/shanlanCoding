@@ -127,9 +127,9 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
-    appid:  ksrz2lYRLkGCOqMraVC2gBB3-gzGzoHsz
-    appkey:  ehlbHl0wgN6gbvN4NQexYxnl
-    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    appid:  X8D7PdERV4O24r3mDuwHflNP-MdYXbMMI # 国内版 ksrz2lYRLkGCOqMraVC2gBB3-gzGzoHsz
+    appkey: YRKVeK33SutYf7IlMsBlWJI0 # 国内版 ehlbHl0wgN6gbvN4NQexYxnl
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki		邮件通知
     verify: false # Verification code	验证码？
     placeholder: 说点什么吧？ # comment box placeholder		评论框默认显示？
     avatar: robohash # gravatar style  头像样式
