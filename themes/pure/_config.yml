@@ -135,7 +135,7 @@ comment:
     avatar: robohash # gravatar style  头像样式
     meta: nick,mail,link # custom comment header 需要哪些字段
     pageSize: 10 # pagination size 分页
-    visitor: true # Article reading statistic https://valine.js.org/visitor.html	文章访问量统计。
+    visitor: false # Article reading statistic https://valine.js.org/visitor.html	文章访问量统计。
 
 # douban 豆瓣书单
 # Api：
