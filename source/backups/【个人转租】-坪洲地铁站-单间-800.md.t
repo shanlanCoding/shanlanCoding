@@ -30,7 +30,7 @@ categories:
 
 -------
 
-# **#链家介绍：**[海滨新村-单间](https://fast.v2ex.com/new/shenzhen)
+# **#链家介绍：**[海滨新村-单间](https://sz.lianjia.com/zufang/SZ2373702098681872384.html)
 
 -------
 
