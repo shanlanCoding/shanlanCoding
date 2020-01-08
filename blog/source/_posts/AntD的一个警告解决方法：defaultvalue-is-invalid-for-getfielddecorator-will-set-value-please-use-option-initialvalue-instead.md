@@ -1,5 +1,6 @@
 ---
-title:AntD的一个警告解决方法：defaultvalue is invalid for getfielddecorator will set value
+title: >-
+  AntD的一个警告解决方法：defaultvalue is invalid for getfielddecorator will set value
   please use option.initialvalue instead
 copyright: true
 comments: true
