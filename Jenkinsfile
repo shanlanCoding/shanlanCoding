@@ -22,6 +22,9 @@ pipeline {
     }
     stage('生产') {
       steps {
+        echo '============打印主题配置============'
+        sh 'cat ./themes/pure/_config.yml'
+        echo '============主题配置打印结束============'
         echo '生产中...'
         sh 'hexo clean'
         sh 'hexo g'
@@ -40,6 +43,7 @@ pipeline {
           sh 'git commit -m \'init\''
           sh 'git push -u -f "$USER_PROJECT" master:master'
         }
+
         echo '部署完成'
       }
     }
