@@ -131,4 +131,3 @@ export default class CloudConnected extends Component {
     }
 }
 ```
-完
