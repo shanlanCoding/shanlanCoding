@@ -2,7 +2,7 @@
 
 ### 本程序的博客地址为：[博客](https://blog.gobyte.cn/)，部署在GitHub pages和Coding上，再配合CDN就能够达到我当前博客的效果，最为重要的是，这一切都是**免费**的！
 
-### 如果你也想使用该程序部署博客，请自行搜索：HEXO+GitHub pages
+### 如果你也想使用该程序部署博客，请自行搜索：HEXO+GitHub pages等关键字
 
 ### 另外，部署完毕以后，你还需要做一些优化操作，添加一些你需要的功能。具体可以参考该教程：[Hexo优化教程](https://blog.gobyte.cn/post/ad2324d4.html)
 
