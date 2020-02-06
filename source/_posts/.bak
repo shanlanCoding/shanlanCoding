@@ -1,12 +1,12 @@
 ---
-title: AntD的一个警告解决方法-defaultvalue is invalid for getfielddecorator will set value
+title:AntD的一个警告解决方法：defaultvalue is invalid for getfielddecorator will set value
   please use option.initialvalue instead
 copyright: true
 comments: true
 toc: true
-tags: 
+tags:
   - React
-categories: 
+categories:
   - 前端
 abbrlink: 7080982b
 date: 2019-12-07 16:58:03
@@ -92,3 +92,4 @@ getFieldDecorator('name', {
 # 总结
 
 本问题不难，以为我看到这一大串的报错提醒都会选择略过，然后使用搜索引擎苦苦搜索。事实上只要多观察报错提醒，就可以很简单的解决问题。
+
