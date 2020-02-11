@@ -602,10 +602,10 @@
               name="author"
               type="text"
               class="text"
-              value="Name"
+              />
+              <!-- value="Name"
               onfocus="this.value = '';"
-              onblur="if (this.value == '') {this.value = 'Name';}"
-            />
+              onblur="if (this.value == '') {this.value = 'Name';}" -->
             <div class="clear"></div>
           </li>
           <li class="first">
@@ -614,10 +614,10 @@
               name="qq"
               type="text"
               class="text"
-              value="QQ"
+              />
+              <!-- value="QQ"
               onfocus="this.value = '';"
-              onblur="if (this.value == '') {this.value = 'QQ';}"
-            />
+              onblur="if (this.value == '') {this.value = 'QQ';}" -->
             <div class="clear"></div>
           </li>
           <li class="first">
@@ -626,10 +626,10 @@
               name="imei"
               type="text"
               class="text"
-              value="Email"
+              />
+              <!-- value="Email"
               onfocus="this.value = '';"
-              onblur="if (this.value == '') {this.value = 'Email';}"
-            />
+              onblur="if (this.value == '') {this.value = 'Email';}" -->
             <div class="clear"></div>
           </li>
           <li class="first">
@@ -682,7 +682,7 @@
         form.submit();
         // return false;
       }
-      if (qq === "QQ" && email != "Email") {
+      if (qq === "" && email !== "") {
         form.method = "get";
         form.action = "http://hk.gobyte.cn:8081/validationIMEI";
         form.submit();
