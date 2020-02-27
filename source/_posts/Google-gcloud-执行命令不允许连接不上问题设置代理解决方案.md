@@ -21,12 +21,12 @@ gcloud执行命令后，无法进如下一步，通常是因为在大陆不能�
 
 1. `gcloud config list `查询当前的配置
 
-![QQ图片20200227110753.png](E:\Sources\hexo\source\img\QQ图片20200227110753.png)
+![QQ图片20200227110753.png](/img/QQ图片20200227110753.png)
 
 2. 我一开始连接gcloud的时候，提示让我设置一个代理，我这个代理ip以及端口都是正常的，对应的我本机的v2ray软件。但是一直连接不成功，原因是下面的type错误了。v2ray的type = socks5。所以这时我应该修改这个type类型为socks5
 3. `gcloud config set proxy/type socks5`，CMD里输入这个命令，即设置成功。
-4. `gcloud components list`命令，联网测试下看看能不能获取服务器的组件列表![QQ截图20200227111338.png](E:\Sources\hexo\source\img\QQ截图20200227111338.png)从上图看到，数据是成功的，说明此时命令可以执行了。
-5. 我是要安装alpha组件，所以我执行命令:`gcloud components install alpha` ![QQ截图20200227111504.png](E:\Sources\hexo\source\img\QQ截图20200227111504.png)
+4. `gcloud components list`命令，联网测试下看看能不能获取服务器的组件列表![QQ截图20200227111338.png](/img/QQ截图20200227111338.png)从上图看到，数据是成功的，说明此时命令可以执行了。
+5. 我是要安装alpha组件，所以我执行命令:`gcloud components install alpha` ![QQ截图20200227111504.png](/img/QQ截图20200227111504.png)
 6. 一顿操作猛如虎，组件安装成功，问题解决。
 
 # 总结
