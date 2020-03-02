@@ -178,7 +178,7 @@ Map集合在添加元素的时候，先要计算该元素的Hash值，然后根�
   /**
    * TODO: 多线程测试start和run方法
    *
-   * @author shanLan misterchou@qq.com
+   * @author shanLan http://blog.gobyte.cn
    * @date 2019/8/5 23:21
    */
   public class threadTest {
@@ -199,7 +199,7 @@ Map集合在添加元素的时候，先要计算该元素的Hash值，然后根�
   /**
    * TODO: 实现了这个接口，jdk就知道这个类是一个线程
    *
-   * @author shanLan misterchou@qq.com
+   * @author shanLan http://blog.gobyte.cn
    * @date 2019/8/5 23:29
    */
   class Runner1 implements Runnable {
