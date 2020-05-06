@@ -3,11 +3,12 @@ title: 解决微软EDGE浏览器在线大声朗读语音卡顿问题
 copyright: true
 comments: true
 toc: true
-date: 2020-03-15 23:22:25
 tags:
-- 浏览器
+  - 浏览器
 categories:
-- 工具
+  - 工具
+abbrlink: '46726573'
+date: 2020-03-15 23:22:25
 ---
 
 新版的Chromium内核的edge浏览器添加了一个语音朗读的功能，配合F9的沉浸式阅读体验非常好，朗读效果堪比真人，测试语音链接：[测试语音](https://azure.microsoft.com/files/NeuralPreviewAudios/xiaoxiao-cn-nts-1.wav

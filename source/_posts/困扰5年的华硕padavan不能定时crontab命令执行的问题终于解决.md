@@ -3,11 +3,12 @@ title: 困扰5年的K1K2pk3华硕padavan不能定时crontab命令执行的问题
 copyright: true
 comments: true
 toc: true
-date: 2020-02-29 09:53:42
 tags:
-- 路由器
+  - 路由器
 categories:
-- 服务器
+  - 服务器
+abbrlink: 59785a2c
+date: 2020-02-29 09:53:42
 ---
 
 # 缘起

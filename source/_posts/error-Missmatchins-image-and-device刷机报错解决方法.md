@@ -3,11 +3,12 @@ title: 'error:Missmatchins image and device刷机报错解决方法'
 copyright: true
 comments: true
 toc: true
-date: 2020-05-06 22:28:21
 tags:
-- 手机
+  - 手机
 categories:
-- 设备
+  - 设备
+abbrlink: 5613105b
+date: 2020-05-06 22:28:21
 ---
 
 # 起因
