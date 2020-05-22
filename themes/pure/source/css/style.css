@@ -7838,9 +7838,11 @@ body.okayNav-loaded {
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
     border-right: 1px solid #f6f6f6;
-    width: 33.33333%;
+    /* 公告栏 */
+    width: 19.33333%;
   }
 
+  /* 主内容区 */
   .main {
     width: 62.5%;
     padding-right: 20px;
