@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: 山岚 - 90码农历险记 # 页面title
   favicon: /shan-2.png #网站logo
-  board: <p>欢迎交流与分享经验，知无不言言无不尽!</p> # 站点公告
+  board: <p>人生短短几个秋</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config 博客配置
@@ -191,7 +191,7 @@ profile:
   author: 山岚
   author_title: 半吊子全栈开发者
   author_description: 大龄萌新；新时代福娃；喜欢东搞西搞；对待问题有独到的见解；
-  location: Work in 0769; Home is in 0713
+  location: Work in Home; Home is in 0713
   follow: https://github.com/shanlanCoding
   # Social Links
   social:
