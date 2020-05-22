@@ -1,4 +1,4 @@
 @echo off
 E:
-cd E:\HEXO\shanlancoding.github.io
+cd E:\Sources\hexo
 hexo g && hexo s

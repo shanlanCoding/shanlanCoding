@@ -129,13 +129,15 @@ comment:
   valine: # Valine. https://valine.js.org
     appid:  X8D7PdERV4O24r3mDuwHflNP-MdYXbMMI # 国内版 ksrz2lYRLkGCOqMraVC2gBB3-gzGzoHsz
     appkey: YRKVeK33SutYf7IlMsBlWJI0 # 国内版 ehlbHl0wgN6gbvN4NQexYxnl
-    notify: false # mail notifier , https://github.com/xCss/Valine/wiki		邮件通知
-    verify: false # Verification code	验证码？
+    verify: false # Verification code
+    notify: false # 自带邮箱通知，不建议开启
     placeholder: 正确填写邮箱, 才能及时收到回复哦♪(^∇^*) # comment box placeholder		评论框默认显示？
     avatar: robohash # gravatar style  头像样式
     meta: nick,mail,link # custom comment header 需要哪些字段
     pageSize: 10 # pagination size 分页
     visitor: false # Article reading statistic https://valine.js.org/visitor.html	文章访问量统计。
+    recordIP: true #评论者ip
+    requiredFields: ['mail',] #设置必填项
 
 # douban 豆瓣书单
 # Api：
