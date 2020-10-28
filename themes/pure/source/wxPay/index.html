@@ -1,10 +1,10 @@
 <html lang="zh" class="">
   <head>
     <meta charset="UTF-8" />
-    <title>winxin://微信链接转微信支付</title>
+    <title>测试</title>
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0"
+      content="width=device-width,initial-scale=0.9,minimum-scale=0.5,maximum-scale=1.0,user-scalable=0"
     />
 
     <script src="./qrcode.min.js"></script>
@@ -112,11 +112,11 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
       parameters = "";
     // 判断当前页面是否带wxPayUrl参数，如果带，则跳转，否则停止
     parameters = window.location.search;
-    if (parameters.indexOf("wxPayUrl") > -1) {
+    if (parameters.indexOf("go") > -1) {
       //   修改超级的href
       document.querySelectorAll(
         ".weixin-wap-deeplink"
-      )[0].href = decodeURIComponent(getSearchString("wxPayUrl", parameters));
+      )[0].href = decodeURIComponent(getSearchString("go", parameters));
 
       // 延时打开
       setTimeout(() => {
@@ -151,7 +151,7 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
       // 拼接当前页面跳转
       // let payUrl =  protocol +  "//" +  host + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
       // 指定页面跳转
-      let payUrl =  window.location.href + "pay.html?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
+      let payUrl =  window.location.href + "go.html?go=" + encodeURIComponent(wxPayUrl.value);
 
       makeQr(payUrl);
     };

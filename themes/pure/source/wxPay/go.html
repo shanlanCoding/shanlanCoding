@@ -1,7 +1,7 @@
 <html lang="zh" class="">
   <head>
     <meta charset="UTF-8" />
-    <title>winxin://微信链接转微信支付</title>
+    <title>GoGoGo</title>
     <meta
       name="viewport"
       content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0"
@@ -27,11 +27,11 @@
 
     // 判断当前页面是否带wxPayUrl参数，如果带，则跳转，否则停止
     parameters = window.location.search;
-    if (parameters.indexOf("wxPayUrl") > -1) {
+    if (parameters.indexOf("go") > -1) {
       //   修改超级的href
       document.querySelectorAll(
         ".weixin-wap-deeplink"
-      )[0].href = decodeURIComponent(getSearchString("wxPayUrl", parameters));
+      )[0].href = decodeURIComponent(getSearchString("go", parameters));
       document
         .querySelectorAll(".weixin-wap-deeplink")[0]
         .removeAttribute("hidden");
