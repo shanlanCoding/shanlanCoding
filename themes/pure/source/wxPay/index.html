@@ -151,7 +151,7 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
       // 拼接当前页面跳转
       // let payUrl =  protocol +  "//" +  host + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
       // 指定页面跳转
-      let payUrl =  window.location.href + "wxPay/pay.html?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
+      let payUrl =  window.location.href + "pay.html?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
 
       makeQr(payUrl);
     };
