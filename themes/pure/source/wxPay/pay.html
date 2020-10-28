@@ -10,8 +10,10 @@
   </head>
 
   <body>
-    <a href="javascript:void(0)" class="weixin-wap-deeplink">微信支付测试</a>
-    1.接收参数，并解析 2.将参数拼接成url，写入到a标签内 3.点击这个a标签
+    <a href="javascript:void(0)" class="weixin-wap-deeplink" hidden
+      >微信支付
+    </a>
+    <!-- 1.接收参数，并解析 2.将参数拼接成url，写入到a标签内 3.点击这个a标签 -->
   </body>
 
   <script id="INLINE_PEN_JS_ID">
@@ -22,7 +24,7 @@
       pathname,
       wxPayUrl,
       parameters = "";
-      
+
     // 判断当前页面是否带wxPayUrl参数，如果带，则跳转，否则停止
     parameters = window.location.search;
     if (parameters.indexOf("wxPayUrl") > -1) {
@@ -30,7 +32,9 @@
       document.querySelectorAll(
         ".weixin-wap-deeplink"
       )[0].href = decodeURIComponent(getSearchString("wxPayUrl", parameters));
-
+      document
+        .querySelectorAll(".weixin-wap-deeplink")[0]
+        .removeAttribute("hidden");
       // 延时打开
       setTimeout(() => {
         document.querySelectorAll(".weixin-wap-deeplink")[0].click();
@@ -43,13 +47,10 @@
 
     // --------工具函数--------
 
-
-
     //   微信支付
     var wxPay = (url) => {
       document.querySelectorAll(".weixin-wap-deeplink")[0].click();
     };
-
 
     //   从链接的参数中取值
     //   key(需要检索的键） url（传入的需要分割的url地址，例：?id=2&age=18）
