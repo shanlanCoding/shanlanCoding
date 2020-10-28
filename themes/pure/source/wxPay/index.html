@@ -148,8 +148,13 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
         // let payUrl = domain + wxPayUrl.value;
         // 域名+网页+参数，本地的话得用domain，这个是在输入框里自定义的
         // let payUrl = domain + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
-        let payUrl = protocol + "//";
-        host + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
+        let payUrl =
+          protocol +
+          "//" +
+          host +
+          pathname +
+          "?wxPayUrl=" +
+          encodeURIComponent(wxPayUrl.value);
         makeQr(payUrl);
       };
 
