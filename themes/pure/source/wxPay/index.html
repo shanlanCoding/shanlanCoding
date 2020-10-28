@@ -106,6 +106,7 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
       //   初始化变量
       var domain,
         host,
+        protocol,
         pathname,
         wxPayUrl,
         parameters = "";
@@ -133,6 +134,8 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
         domain = document.getElementById("domain").value;
 
         host = window.location.host;
+
+        protocol = window.location.protocol;
         //域名后面的html地址
         pathname = window.location.pathname;
         wxPayUrl = document.getElementById("wxPayUrl");
@@ -145,8 +148,8 @@ weixin://wap/pay?appid%3Dwxae3e8056daea8727%26noncestr%3D84b64e537f08e81b8dea8cc
         // let payUrl = domain + wxPayUrl.value;
         // 域名+网页+参数，本地的话得用domain，这个是在输入框里自定义的
         // let payUrl = domain + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
-        let payUrl =
-          host + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
+        let payUrl = protocol + "//";
+        host + pathname + "?wxPayUrl=" + encodeURIComponent(wxPayUrl.value);
         makeQr(payUrl);
       };
 
