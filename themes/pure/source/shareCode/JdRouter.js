@@ -1,5 +1,3 @@
-
-
 (function () {
     'use strict';
     /*
@@ -16,9 +14,9 @@
     //5.页面会显示最终结果
 
     // wskey秘钥，必填！抓包的时候在App里查看积分明细，wskey、sign、appkey在header里
-    let wskey = localStorage.getItem(wskey);
-    let jdmt_sign = localStorage.getItem(jdmt_sign);
-    let jdmt_appkey = localStorage.getItem(jdmt_appkey);
+    let wskey = localStorage.getItem('wskey');
+    let jdmt_sign = localStorage.getItem('jdmt_sign');
+    let jdmt_appkey = localStorage.getItem('jdmt_appkey');
 
 
 
