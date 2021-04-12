@@ -3,9 +3,10 @@ title: 警惕！IKBC机械键盘寿命离谱，满打满算一年不要！入手
 copyright: true
 comments: true
 toc: true
-date: 2021-04-12 17:31:09
 tags: 键盘
 categories: 生活
+abbrlink: cbfeffee
+date: 2021-04-12 17:31:09
 ---
 
 作为一个新时代的码农，怎么能没有一块趁手的键盘，那可是干饭的家伙。结合之前自己的经验，最后打算购买一块机械键盘，最好还是cherry轴体的。
