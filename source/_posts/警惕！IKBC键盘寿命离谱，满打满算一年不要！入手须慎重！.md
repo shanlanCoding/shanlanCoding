@@ -1,5 +1,5 @@
 ---
-title: 警惕！IKBC机械键盘寿命离谱，满打满算一年不要！入手须慎重！
+title: 警惕！IKBC机械键盘寿命离谱，满打满算一年不到！入手须慎重！
 copyright: true
 comments: true
 toc: true
