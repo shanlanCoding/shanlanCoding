@@ -26,7 +26,6 @@ date: 2021-04-12 17:31:09
 
 <video id="video" controls="true" preload="auto"> <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
 
-
 # 售后
 立马掏出手机联系京东自营的IKBC客服，我又是拍视频，又是拍照片，客服问了型号以后告诉FN+R可以重置恢复出厂。我尝试无效，给了我一个联系方式，让我找技术支持。联系方式如下：
 ```
@@ -50,7 +49,6 @@ QQ:2661282134加上了，目前她也没办法判断故障，给出解决方法�
 ![cherry-G80-3800.png](../img/qRzaQsjtype854g.png)
 
 第三块机械键盘是IKBC的F108，至于质量我就是很好的例子。448元cherry银轴，目前故障是键盘乱按，
-![cherry-G80-3800.png](../img/qRzaQsjtype854g.png)
 ![IKBC-F108-2.png](../img/LP4OetMhY1WTdqD.png)
 
 -------
