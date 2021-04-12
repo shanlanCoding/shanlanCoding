@@ -24,8 +24,7 @@ date: 2021-04-12 17:31:09
 
 故障视频如下（可能需要科学上网）：
 
-<video id="video" controls="true" preload="none"> <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
-
+<video id="video" controls="true" preload="auto"> <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
 
 
 # 售后
@@ -56,7 +55,7 @@ QQ:2661282134加上了，目前她也没办法判断故障，给出解决方法�
 
 -------
 
-总体而言，3块键盘，2块国产，国产使用寿命最短，体验也最差。
+总体而言，3块键盘，2块国产，国产使用寿命最短，体验也最差。我将会继续更新后续，直至有个结果。
 
 
 
