@@ -23,7 +23,9 @@ categories: 生活
 
 故障视频如下（可能需要科学上网）：
 
-<iframe height=498 width=510 src="https://files.catbox.moe/yrdkve.MP4">
+<video id="video" controls="true" preload="none"> <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
+
+
 
 # 售后
 立马掏出手机联系京东自营的IKBC客服，我又是拍视频，又是拍照片，客服问了型号以后告诉FN+R可以重置恢复出厂。我尝试无效，给了我一个联系方式，让我找技术支持。联系方式如下：
