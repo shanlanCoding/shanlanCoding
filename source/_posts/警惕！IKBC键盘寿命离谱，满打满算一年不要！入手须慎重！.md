@@ -26,9 +26,12 @@ date: 2021-04-12 17:31:09
 
 备用视频链接：[https://streamja.com/0Pp7k](https://streamja.com/0Pp7k)
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/0Pp7k" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;">
+    <iframe src="https://streamja.com/embed/0Pp7k" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;">
+    </iframe>
+</div>
 
-<video id="video" controls="true" preload="auto" height="100%" width="100%" > <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
+<video id="video" controls="true" preload="auto" height="50%" width="50%" > <source id="mp4" src="https://files.catbox.moe/yrdkve.MP4" type="video/mp4"> </video>
 
 # 售后
 立马掏出手机联系京东自营的IKBC客服，我又是拍视频，又是拍照片，客服问了型号以后告诉FN+R可以重置恢复出厂。我尝试无效，给了我一个联系方式，让我找技术支持。联系方式如下：
