@@ -1,13 +1,13 @@
 name: HEXO_DEPLOY
 on:
-push:
- branches:
+ push:
+  branches:
    - HEXO
 jobs:
-build:
- runs-on: ubuntu-latest
+ build:
+  runs-on: ubuntu-latest
 
- steps:
+  steps:
    - name: Checkout source
      uses: actions/checkout@v1
      with:
